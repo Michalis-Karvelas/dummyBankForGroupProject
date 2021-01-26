@@ -70,7 +70,7 @@ public class CardDetailsController {
         return new Response("The CardDetails have been deleted");
     }
 
-    @GetMapping(value="/checkcardvalidity",consumes = "application/json",
+    @PostMapping(value="/checkcardvalidity",consumes = "application/json",
             produces = "application/json")
     public Response yolo(@RequestBody CardDetailsRequest request){
         log.info("ready to check the validity");
