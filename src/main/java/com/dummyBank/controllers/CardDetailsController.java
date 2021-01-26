@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import static java.util.Objects.isNull;
 
 @Slf4j
-@CrossOrigin(origins = " * ", allowedHeaders = " * ")
+@CrossOrigin(origins = "http://localhost:8088", allowedHeaders = " * ")
 @RequestMapping(value="/api/card")
 @RestController
 public class CardDetailsController {

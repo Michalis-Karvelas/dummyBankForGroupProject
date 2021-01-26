@@ -1,3 +1,9 @@
 
 .idea/.name
 .idea/jarRepositories.xml
+.idea/compiler.xml
+/.idea/
+dummyBank.iml
+/target/
+*.iml
+dummyBank.iml
